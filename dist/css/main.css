@@ -126,7 +126,7 @@ main#home h1 {
   background: #515151;
   padding: 0.5rem;
   border-bottom: 5px red solid;
-  text-align: center;
+  text-align: left;
 }
 .about-info .job-1 {
   -ms-grid-row: 2;
@@ -333,7 +333,7 @@ main#home h1 {
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("../img/pic1.jpg");
+  background: url("../img/pic4.jpeg");
   background-size: cover;
   border-radius: 50%;
   border: solid 3px red;

@@ -1,115 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+			integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<link rel="stylesheet" href="./dist/css/main.css">
+		<title>About Me</title>
+	</head>
+	<body>
+		<header>
+			<div class="menu-btn">
+				<div class="btn-line"></div>
+				<div class="btn-line"></div>
+				<div class="btn-line"></div>
+			</div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./dist/css/main.css">
-    <title>About Me</title>
-</head>
+			<nav class="menu">
+				<div class="menu-branding">
+					<div class="portrait"></div>
+				</div>
 
-<body>
-    <header>
-        <div class="menu-btn">
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-        </div>
+				<ul class="menu-nav">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item current">
+						<a href="about.html" class="nav-link">About Me</a>
+					</li>
+					<li class="nav-item">
+						<a href="projects.html" class="nav-link">Sample Projects</a>
+					</li>
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">Contact Me</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-        <nav class="menu">
-            <div class="menu-branding">
-                <div class="portrait"></div>
-            </div>
+		<main id="about">
+			<h1 class="lg-heading">About <span class="text-secondary">Me</span></h1>
 
-            <ul class="menu-nav">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item current">
-                    <a href="about.html" class="nav-link">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a href="projects.html" class="nav-link">My Work</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+			<h2 class="sm-heading">Please hear me out...</h2>
 
-    <main id="about">
-        <h1 class="lg-heading">About <span class="text-secondary">Me</span></h1>
+			<div class="about-info">
+				<img src="./dist/img/pic3.jpeg" alt="me" class="bio-img">
 
-        <h2 class="sm-heading">Please hear me out...</h2>
+				<div class="bio">
+					<h3 class="text-secondary">Brief self-intro...</h3>
+					<p>
+						At this humble attempt, I’d like to describe myself as a highly motivated, ambitious and
+						hard-working individual with an extensive background in business administration.
+						Thanks to my English fluency and a wide array of useful skills, I’ve been proven to exceed performance
+						expectations, maintain the ability to bring about fundamental changes in various
+						circumstances and acquire a strong strategic vision along with the capability to tackle complex
+						tasks. For a long time, I’ve been showing intense interest in technology and upon
+						finding this golden opportunity, I know I must not let this chance slip away easily.
+						Thus, I strongly believe that I can effectively contribute all I’ve got to your company at my best.
+						I sincerely thank you for your time and review. I wish you a great day and look forward to
+						co-operating with you soon.
 
-        <div class="about-info">
-            <img src="./dist/img/pic2.jpg" alt="me" class="bio-img">
+					</p>
+				</div>
 
-            <div class="bio">
-                <h3 class="text-secondary">BIO</h3>
-                <p>
-                    At this humble attempt, I’d like to describe myself as a highly motivated, ambitious and
-                    hard-working individual with an extensive background in business administration.
-                    Thanks to my English fluency and a variety of useful skills, I’ve been proven to exceed performance
-                    expectations, maintain the ability to bring about fundamental changes needed in response to various
-                    circumstances and acquire a strong strategic vision along with the capability to tackle complex
-                    tasks. For a long time, I’ve been showing intense interest in the world of programming and upon
-                    finding this golden opportunity, I know I must not let this chance slip away easily.
-                    Thus, I strongly believe that I can effectively contribute all I’ve got to your company at my best.
-                    I sincerely thank you for your time and review. I wish you a great day and look forward to
-                    co-operating with you soon
+				<div class="job job-1">
+					<h3>Job Title: Backend developer</h3>
+					<h3>Company: Fujinet Systems JSC</h3>
+					<h4>Timeline: 03/2018 - 03/2020</h4>
+					<ul>
+						<li>
+							Project’s brief description: Improving and maintaining a web application that 
+							manages logistical operations of a Japanese delivery company.
+						</li>
+						<li>Client: Japan.</li>
+						<li>Team size: 10.</li>
+						<li>Responsibilities: 
+							<ul>
+								<li>Implementing web services based on the MVC architectural pattern.</li>
+								<li>Writing unit tests for the Service & View layers.</li>
+								<li>Writing necessary documents on Confluence regarding various aspects of the project.</li>
+							</ul>
+						</li>
+						<li>Programming languages: Java.</li>
+						<li>Frameworks/Libraries: Apache Struts 2, Hibernate, JUnit5 & Mockito, etc.</li>
+						<li>Tools: Eclipse IDE, Git, Maven, etc.</li>
+						<li>Databases: MySQL.</li>
+						<li>Methodology: Agile.</li>
+					</ul>
+				</div>
 
-                </p>
-            </div>
+				<div class="job job-2">
+					<h3>Job Title: Frontend developer</h3>
+					<h3>Company: MOR Software JSC</h3>
+					<h4>Timeline: 10/2020 - 09/2021</h4>
+					<ul>
+						<li>
+							Project’s brief description: Improving and maintaining the front-end aspect of a project, 
+							called Cydas, that deals with human resource management-related operations in a Japanese firm.
+						</li>
+						<li>Client: Japan.</li>
+						<li>Team size: 8.</li>
+						<li>Responsibilities: 
+							<ul>
+								<li>Implementing new features throughout the UI based on client's requirements.</li>
+								<li>Dealing with any hotfix situation that might happen during a sprint.</li>
+								<li>Proposing ideas and solutions to the project's problems.</li>
+							</ul>
+						</li>
+						<li>Programming languages: html, css, JavaScript & TypeScript.</li>
+						<li>Frameworks/Libraries: Reactjs, React Testing Library, Jest, etc.</li>
+						<li>Tools: Visual Studio Code, Git (Sourcetree), ngrok, etc.</li>
+						<li>Databases: PostgreSQL.</li>
+						<li>Methodology: Agile.</li>
+					</ul>
+				</div>
 
-            <div class="job job-1">
-                <h3>Job Title: HR Officer</h3>
-                <h3>Company: M.V.M Construction Co., Ltd</h3>
-                <h4>Timeline: 2008</h4>
-                <p>Brief description:
-                    <br>
-                    <span>* Recruitment -></span>
-                    <ul>
-                        <li>Sourcing employees from several sources.</li>
-                        <li>Preparation for interview.</li>
-                        <li>Input recruitment data & file in documents & records.</li>
-                    </ul>
-                    <span>* Training -></span>
-                    <ul>
-                        <li>Sourcing training courses & training centers as required.</li>
-                        <li> Drafting training plan.</li>
-                        <li>Input training data & files in documents & records</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="job job-2">
-                <h3>Job Title: Customer Service Officer</h3>
-                <h3>Company: Victoria Healthcare International Clinic Co., Ltd</h3>
-                <h4>Timeline: 2012 - 2016</h4>
-                <p>Brief Description: Operate specialized software to schedule or customize patients’ appointments with
-                    doctors and take care of insurance-related tasks, including the translation/interpretation of all
-                    files & documents between English & Vietnamese</p>
-            </div>
-            <div class="job job-3">
-                <h3>Job Title: Teaching Assistant & IELTS trainer</h3>
-                <h3>Company: ILA Educational & Training centers</h3>
-                <h4>Timeline: 2016 - 2019</h4>
-                <p>Brief Description: Assisting native English-speaking teachers in delivering lessons & organizing
-                    games/activities in class, Orchestrating weekly tutoring classes, which mostly pertain to grammar
-                    and  Customer service-oriented tasks such as frequently being in touch with students’ parents to
-                    inform them about their child’s/children’s progress, either via phone calls or face-to-face
-                    interactions</p>
-            </div>
-        </div>
-    </main>
+				<div class="job job-3">
+					<h3>Job Title: Full-stack engineer</h3>
+					<h3>Company: National Australia Bank</h3>
+					<h4>Timeline: 11/2021 - 02/2023</h4>
+					<ul>
+						<li>
+							Project’s brief description: Building and maintaining a microservice called Fraud Adaptor 
+							within a much larger banking system that manages requests/messages via Kafka & validates 
+							them using Camunda, which visualises the data flows in Fraud Adaptor.
+						</li>
+						<li>Client: NAB’s employees.</li>
+						<li>Team size: 15.</li>
+						<li>Responsibilities: 
+							<ul>
+								<li>
+									Building a scalable Kafka cluster within the microservice for 
+									handling requests/messages from other services.
+								</li>
+								<li>
+									Setting up a business process model & notation called Camunda for validating & 
+									visualising the data flows between various components within the microservice.
+								</li>
+							</ul>
+						</li>
+						<li>Programming languages: Java & JavaScript.</li>
+						<li>Frameworks/Libraries: Spring Boot, Hibernate, Lombok, JUnit5, Mockito, Cucumber, Jackson & Slf4j, etc.</li>
+						<li>Tools: Intellij IDEA, Git, SourceTree, Gradle, Kafka, Splunk, Jenkins & Camunda, etc.</li>
+						<li>Databases: PostgreSQL, Redis.</li>
+						<li>Methodology: Agile.</li>
+					</ul>
+				</div>
+			</div>
+		</main>
 
-    <footer id="main-footer">
-        Copyright &copy; 2020
-    </footer>
-    <script src="./dist/js/main.js"></script>
-</body>
-
+		<footer id="main-footer">
+			Copyright &copy; 2024
+		</footer>
+		<script src="./dist/js/main.js"></script>
+	</body>
 </html>
